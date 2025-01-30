@@ -3,6 +3,7 @@ import studentRoutes from "./src/student/routes.js";
 
 const app = express();
 const port = 3000;
+const HOST = '127.0.0.1'; 
 
 app.use(express.json());
 
